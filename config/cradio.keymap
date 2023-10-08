@@ -1,5 +1,5 @@
 /* source keypos definitions */
-#include "../zmk-nodefree-config/keypos_def/keypos_34keys_wide.h"
+#include "../zmk-nodefree-config/keypos_def/keypos_34keys.h"
 
 /* map Planck's extra keys */
 #define X_MT  &none   &none                  // top row, middle
@@ -12,3 +12,4 @@
 /* source the main keymap */
 #include "base.keymap"
 
+// vim: filetype=devicetree
