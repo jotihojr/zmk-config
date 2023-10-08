@@ -1,6 +1,9 @@
 /* source keypos definitions */
 #include "../zmk-nodefree-config/keypos_def/keypos_34keys.h"
 
+// activate bluetooth
+#define CONFIG_WIRELESS 1
+
 /* map Planck's extra keys */
 #define X_MT  &none   &none                  // top row, middle
 #define X_MM  &none   &none                  // middle row, middle
