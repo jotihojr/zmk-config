@@ -4,11 +4,9 @@
 // activate bluetooth
 #define CONFIG_WIRELESS 1
 
-// using macOS
-#define HOST_OS 2
-
 // Handedness - RALT as unidode lead
 #define OS_UNICODE_LEAD &macro_press &kp RALT
+#define OS_UNICODE_TRAIL &macro_release &kp RALT
 
 /* map Planck's extra keys */
 /*
