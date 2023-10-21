@@ -199,6 +199,8 @@ ZMK_BEHAVIOR(dot_spc, macro,
 
 // tap: backspace | lshft + tap: delete | rshft + tap: shift-delete
 ZMK_BEHAVIOR(bs_del, mod_morph,
+    bindings = <&kp BSPC>, <&kp DEL>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
     keep-mods = <MOD_RSFT>;
 )
 
