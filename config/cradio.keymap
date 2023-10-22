@@ -8,7 +8,7 @@
 #define OS_UNICODE_LEAD &macro_press &kp RALT
 #define OS_UNICODE_TRAIL &macro_release &kp RALT
 
-ZMK_UNICODE_SINGLE(de_euro, N2, N0, A, C)
+ZMK_UNICODE_SINGLE(de_euro,  N2, N0, A, C)
 
 /* map Planck's extra keys */
 /*
