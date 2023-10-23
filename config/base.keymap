@@ -11,6 +11,8 @@
 //#include "../zmk-nodefree-config/international_chars/greek.dtsi"
 #include "../zmk-nodefree-config/international_chars/german.dtsi"
 
+ZMK_UNICODE_SINGLE(de_euro,  N2, N0, A, C)
+
 #define DEF 0
 #define NAV 1
 #define FN 2
