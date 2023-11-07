@@ -31,3 +31,5 @@
         ;
     };
 };
+
+// vim: filetype=devicetree
